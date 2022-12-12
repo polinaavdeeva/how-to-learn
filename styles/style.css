@@ -235,6 +235,7 @@
 }
 
 .kaufman__triangle {
+    background: url(../images/kaufman-triangle.svg);
     position: absolute;
     top: 0;
     right: -210px;
