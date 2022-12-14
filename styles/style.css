@@ -16,7 +16,7 @@
     height: 100vh;
     background: #f2f2f2;
     position: relative;
-    z-index: -1;
+    z-index: 0;
 }
 
 .logo {
@@ -69,7 +69,7 @@
 }
 
 .header__square-pic {
-    z-index: 0;
+    z-index: -1;
     position: absolute;
     width: 568px;
     height: 568px;
@@ -173,6 +173,7 @@
     margin-top: 100px;
     padding-top: 100px;
     min-height: 890px;
+    box-sizing: border-box;
     background-color: #f2f2f2;
     z-index: 0;
 }
