@@ -92,7 +92,7 @@
 .description {
     display: flex;
     justify-content: center;
-    margin: 100px 0;
+    margin: 100px 0 0;
 }
 
 .two-columns {
@@ -130,6 +130,78 @@
     line-height: 34px;
     font-size: 24px;
     font-weight: 600;
+}
+
+.techniques {
+    width: 80%;
+    margin: 100px auto 0;
+}
+
+.cards {
+    width: 920px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    margin: 0 auto;
+    padding: 0;
+    /* border: 1px solid red;*/
+}
+
+.cards__item {
+    list-style: none;
+    max-width: 240px;
+}
+
+.cards__image {
+    width: 160px;
+    height: 160px;
+    margin: 60px 40px 43px;
+    border-radius: 50%;
+}
+
+.cards__title {
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.cards__description {
+    margin: 16px auto 0;
+    text-align: center;
+    line-height: 23px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.video {
+    margin-top: 100px;
+    margin-bottom: -50px;
+}
+
+.video__iframes {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.video__iframe {
+    width: 515px;
+    height: 316px
+}
+
+.oakley {
+    padding-top: 160px;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+    background-color: #f2f2f2;
+}
+
+.digits {
+    margin: 100px 0;
 }
 
 .section-title {
@@ -181,7 +253,6 @@
 
 .feynman {
     position: relative;
-    margin-top: 100px;
     padding-top: 100px;
     min-height: 890px;
     box-sizing: border-box;
@@ -227,12 +298,21 @@
     z-index: 1;
 }
 
+.page__link_translate {
+    transition: 1s linear;
+}
+
+.page__link_translate:hover {
+    opacity: 0.2;
+}
+
 .kaufman {
     background-color: #1f1f1f;
     padding: 90px 0;
     position: relative;
     overflow: hidden;
     z-index: 0;
+    overflow: hidden;
 }
 
 .table__cell_theme_dark {
@@ -251,6 +331,7 @@
     height: 877px;
     background-size: contain;
     z-index: -1;
+    animation: rotation 20s infinite linear;
 }
 
 .section-title_theme_dark {
