@@ -1,0 +1,7 @@
+.clickable {
+    transition: 1s linear;
+}
+
+.clickable:hover {
+    opacity: 0.2;
+}
